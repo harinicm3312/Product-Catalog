@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="header-content">
+        <h1> Product Catalog</h1>
+        <button id="cartBtn" class="cart-button">
+             Cart (<span id="cartCount">0</span>)
+        </button>
+    </div>
+</header>
+
+<main>
+
+    
+    <section class="controls-section">
+
+        <form id="filterForm">
+
+            <div class="form-group">
+                <label for="search">Search Products</label>
+                <input
+                    type="text"
+                    id="search"
+                    placeholder="Search by product name..."
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="category">Category</label>
+                <select id="category">
+                    <option value="all">All Categories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Shoes">Shoes</option>
+                    <option value="Accessories">Accessories</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="price">Maximum Price</label>
+                <input
+                    type="number"
+                    id="price"
+                    min="0"
+                    placeholder="Enter maximum price"
+                >
+            </div>
+
+            <div class="form-group">
+                <label for="sort">Sort By</label>
+                <select id="sort">
+                    <option value="default">Default</option>
+                    <option value="low-high">Price: Low to High</option>
+                    <option value="high-low">Price: High to Low</option>
+                    <option value="name-a-z">Name: A-Z</option>
+                    <option value="name-z-a">Name: Z-A</option>
+                </select>
+            </div>
+
+            <button type="button" id="clearFilters">
+                Clear Filters
+            </button>
+
+        </form>
+
+    </section>
+
+
+    
+    <section class="products-section">
+
+        <div class="section-heading">
+            <h2>Products</h2>
+            <p id="resultCount"></p>
+        </div>
+
+        <div id="productContainer" class="product-grid"></div>
+
+        <div id="emptyProducts" class="empty-state hidden">
+            <h3>No Products Found</h3>
+            <p>Try changing your search or filters.</p>
+        </div>
+
+    </section>
+
+
+    
+    <section id="cartSection" class="cart-section">
+
+        <div class="cart-header">
+            <h2> Shopping Cart</h2>
+            <button id="emptyCart" class="danger-button">
+                Empty Cart
+            </button>
+        </div>
+
+        <div id="cartContainer"></div>
+
+        <div id="emptyCartMessage" class="empty-state">
+            <h3>Your cart is empty</h3>
+            <p>Add some products to your cart.</p>
+        </div>
+
+        <div id="cartSummary" class="cart-summary hidden">
+            <h3>
+                Cart Total:
+                ₹<span id="cartTotal">0.00</span>
+            </h3>
+        </div>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2026 Product Catalog</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
