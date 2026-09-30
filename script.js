@@ -4,56 +4,55 @@ const products = [
         name: "Wireless Headphones",
         category: "Electronics",
         price: 1999,
-        image: "https://via.placeholder.com/400x250?text=Headphones"
+        image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=500"
     },
     {
         id: 2,
         name: "Smart Watch",
         category: "Electronics",
         price: 2999,
-        image: "https://via.placeholder.com/400x250?text=Smart+Watch"
+        image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500"
     },
     {
         id: 3,
         name: "Cotton T-Shirt",
         category: "Clothing",
         price: 799,
-        image: "https://via.placeholder.com/400x250?text=T-Shirt"
+        image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500"
     },
     {
         id: 4,
         name: "Denim Jacket",
         category: "Clothing",
         price: 1999,
-        image: "https://via.placeholder.com/400x250?text=Jacket"
-    },
+        image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
     {
         id: 5,
         name: "Running Shoes",
         category: "Shoes",
         price: 2499,
-        image: "https://via.placeholder.com/400x250?text=Shoes"
+        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500"
     },
     {
         id: 6,
         name: "Casual Sneakers",
         category: "Shoes",
         price: 1799,
-        image: "https://via.placeholder.com/400x250?text=Sneakers"
+        image: "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
     },
     {
         id: 7,
         name: "Leather Wallet",
         category: "Accessories",
         price: 999,
-        image: "https://via.placeholder.com/400x250?text=Wallet"
+        image: "https://images.unsplash.com/photo-1627123424574-724758594e93?w=500"
     },
     {
         id: 8,
         name: "Travel Backpack",
         category: "Accessories",
         price: 1499,
-        image: "https://via.placeholder.com/400x250?text=Backpack"
+        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500"
     }
 ];
 
