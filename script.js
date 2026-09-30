@@ -26,6 +26,7 @@ const products = [
         category: "Clothing",
         price: 1999,
         image: "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500"
+    },
     {
         id: 5,
         name: "Running Shoes",
